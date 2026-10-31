@@ -1,0 +1,58 @@
+DIDN'T SHOW KEYBOARD
+  //
+  // Email field  
+  TextFormField(
+    controller: _emailController,
+    keyboardType: TextInputType.emailAddress,
+    ...),
+    CONSOLE LOG :
+        Launching lib/main.dart on sdk gphone16k x86 64 in debug mode...
+        ✓ Built build/app/outputs/flutter-apk/app-debug.apk
+        I/FlutterActivityAndFragmentDelegate( 6497): If you are attempting to set --start-paused via Intent extras to launch a Flutter component outside of using the Flutter CLI, note that support for setting engine flags on Android via Intent will soon be dropped; see https://github.com/flutter/flutter/issues/180686 for more information on this breaking change. To migrate, set --start-paused or any other flags specified via Intent extras on the command line instead or see https://github.com/flutter/flutter/blob/main/docs/engine/Flutter-Android-Engine-Flags.md for alternative methods.
+        D/FlutterJNI( 6497): Beginning load of flutter...
+        D/FlutterJNI( 6497): flutter (null) was loaded normally!
+        I/flutter ( 6497): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+        2
+        D/FlutterRenderer( 6497): Width is zero. 0,0
+        2
+        D/FlutterJNI( 6497): Sending viewport metrics to the engine.
+        Connecting to VM Service at ws://127.0.0.1:41881/O25W4iQdiSo=/ws
+        Connected to the VM Service.
+        I/Choreographer( 6497): Skipped 40 frames!  The application may be doing too much work on its main thread.
+        I/m.example.teste( 6497): AssetManager2(0x734f35adadd8) locale list changing from [] to [pt-BR]
+        D/FlutterJNI( 6497): Sending viewport metrics to the engine.
+        D/InsetsController( 6497): hide(ime(), fromIme=false)
+        I/ImeTracker( 6497): com.example.teste:cfbbc645: onCancelled at PHASE_CLIENT_ALREADY_HIDDEN
+        D/ProfileInstaller( 6497): Installing profile for com.example.teste
+        I/ImeTracker( 6497): com.example.teste:6d39bb2e: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+        D/InsetsController( 6497): show(ime(), fromIme=false)
+        D/InsetsController( 6497): Setting requestedVisibleTypes to -1 (was -9)
+        I/AssistStructure( 6497): Flattened final assist data: 496 bytes, containing 1 windows, 3 views
+        D/InputConnectionAdaptor( 6497): The input method toggled cursor monitoring on
+        W/InteractionJankMonitor( 6497): Initializing without READ_DEVICE_CONFIG permission. enabled=true, interval=1, missedFrameThreshold=3, frameTimeThreshold=64, package=com.example.teste
+        7
+        D/FlutterJNI( 6497): Sending viewport metrics to the engine.
+        I/ImeTracker( 6497): com.example.teste:6d39bb2e: onShown
+        2
+        D/FlutterJNI( 6497): Sending viewport metrics to the engine.
+        W/FrameTracker( 6497): Missed SF frame:JANK_COMPOSER, 30115, 78092368, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.teste>
+        W/FrameTracker( 6497): Missed SF frame:JANK_COMPOSER, 30151, 94971646, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.teste>
+        W/FrameTracker( 6497): Missed SF frame:JANK_COMPOSER, 30215, 87020016, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.teste>
+        W/FrameTracker( 6497): Missed App frame:UNKNOWN: 3, 30287, 80807161, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.teste>
+        W/FrameTracker( 6497): Missed SF frame:UNKNOWN: 3, 30287, 80807161, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.teste>
+        W/FrameTracker( 6497): Missed App frame:UNKNOWN: 3, 30337, 83022629, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.teste>
+        W/FrameTracker( 6497): Missed SF frame:UNKNOWN: 3, 30337, 83022629, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.teste>
+        W/FrameTracker( 6497): Missed App frame:UNKNOWN: 3, 30373, 85403945, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.teste>
+        W/FrameTracker( 6497): Missed SF frame:UNKNOWN: 3, 30373, 85403945, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.teste>
+        W/FrameTracker( 6497): Missed SF frame:JANK_COMPOSER, 30416, 82082077, CUJ=J<IME_INSETS_SHOW_ANIMATION::0@1@com.example.teste>
+        V/PerfettoTrigger( 6497): Triggering /system/bin/trigger_perfetto com.android.telemetry.interaction-jank-monitor-80
+        I/ImeTracker( 6497): com.example.teste:ce317102: onRequestShow at ORIGIN_CLIENT reason SHOW_SOFT_INPUT fromUser false
+        D/InsetsController( 6497): show(ime(), fromIme=false)
+        I/ImeTracker( 6497): com.example.teste:ce317102: onCancelled at PHASE_CLIENT_APPLY_ANIMATION
+        I/AssistStructure( 6497): Flattened final assist data: 500 bytes, containing 1 windows, 3 views
+        D/InputConnectionAdaptor( 6497): The input method toggled cursor monitoring on
+        7
+        D/FlutterJNI( 6497): Sending viewport metrics to the engine.
+        Application finished.
+
+        Exited.
