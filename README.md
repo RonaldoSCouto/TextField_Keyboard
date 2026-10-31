@@ -20,7 +20,7 @@ The keyboard is shown only if the field is obscured.
     
 ### Notes:
 * Nothing was changed on pubsec.
-* flutter clean ; flutter pub get  was run bettween test/changes.
+* flutter clean ; flutter pub get  was run between test/changes.
 * It works on past, for some reason, stop to work.
 
 ### Flutter tested versions
