@@ -2,6 +2,15 @@
 This issue occurs on ANDROID EMULATOR and MOBILE (real), both with android 16.
 The keyboard is shown only if the field is obscured.
 
+
+## SOLVED 
+But, in my OFFICIAL APP not this posted here, the problem was caused by:
+return MaterialApp( 
+navigatorKey: navigatorKey, ...
+I comment this line, and it's running well.
+return MaterialApp( 
+//navigatorKey: navigatorKey, ...
+
 ### DIDN'T SHOW KEYBOARD
   TextFormField(
     keyboardType: TextInputType.emailAddress,
